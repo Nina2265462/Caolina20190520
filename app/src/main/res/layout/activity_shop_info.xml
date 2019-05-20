@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ShopInfoActivity">
+    <!--AutoPlayTime  轮播时间-->
+    <!--pointsContainerBackground  点容器背景-->
+    <!--isAutoPlay 是否轮播-->
+    <!--pointsPosition  点的位置-->
+    <!--isShowIndicatorOnlyOne  显示指示器只有一个-->
+    <!--pointsVisibility  点的可见性-->
+    <!--isShowTips  显示提示-->
+    <!--pageChangeDuration  页面更改持续时间-->
+    <com.stx.xhb.xbanner.XBanner
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:AutoPlayTime="3000"
+        app:isAutoPlay="true"
+        app:isHandLoop="true"
+        app:isShowIndicatorOnlyOne="true"
+        app:isShowTips="true"
+        app:pageChangeDuration="800"
+        app:pointsContainerBackground="#442e2e2e"
+        app:pointsPosition="RIGHT"
+        app:pointsVisibility="true"
+        app:tipTextSize="12sp" /> />
+</LinearLayout>
